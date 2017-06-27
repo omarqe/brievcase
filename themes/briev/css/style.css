@@ -16,6 +16,10 @@ a {
 	cursor: pointer !important;
 }
 
+.no-overflow {
+	overflow-y: hidden !important
+}
+
 .global {
 	width: 100%;
 	min-height: 100%;
