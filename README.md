@@ -8,7 +8,7 @@ Hello. Welcome to the Brievcase documentation. I'll guide you through on how to 
 
 Brievcase is a **fast, lightweight, beautiful** and **simple** portfolio platform built for photographers, designers, programmer, freelancers, students and etc. This platform is inteded to showcase your previous works, just like an online resumé/portfolio. It is a file-based web platform so there is no installation needed. All you need to do is to extract the ZIP archive into your web server and you are ready to go.
 
-While showcasing your works, Brievcase also allows you to [write a blog](./posting-a-blog) at the same time. I'll guide you on how to blog with Brievcase later. The blog post uses the famous *Markdown* for easy content creation and *Parsedown* to display the content fast. Brievcase also uses both YAML and JSON for configurations.
+While showcasing your works, Brievcase also allows you to [write a blog](http://omarqe.com/brievcase/docs/blog) at the same time. I'll guide you on how to blog with Brievcase later. The blog post uses the famous *Markdown* for easy content creation and *Parsedown* to display the content fast. Brievcase also uses both YAML and JSON for configurations.
 
 In the other hand, it provides theming feature so that you don't have to change your portfolio content each time you feel like changing the look of your portfolio. Designing a theme is also pretty simple especially when you're familiar with WordPress.
 
@@ -20,7 +20,7 @@ When creating a website, we often need to install extra plugins or extensions. T
 
 The reason I started this project is because I need a very simple portfolio, but beautiful and easy to manage. I found that CMS is great for building awesome websites, but sometimes it is a bit complicated even to manage a small and lightweight website like portfolio. The solution that I have is to create my own platform.
 
-Like the other CMS mentioned above, Brievcase is an open source project too. I welcome everyone who wants to contribute to the project on [Github.](https://github.com/omarqe/brievcase)
+Like the other CMS mentioned above, Brievcase is an open source project too. I welcome everyone who wants to contribute to the project on [Github](https://github.com/omarqe/brievcase).
 
 # Documentation
 The full documentation about Brievcase can be found [here](http://omarqe.com/brievcase).
