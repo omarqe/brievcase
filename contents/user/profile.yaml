@@ -1,0 +1,16 @@
+enabled: true
+name: Omar Mokhtar Al-Asad
+photo: profile.jpg
+bio: |
+ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris varius libero et purus sagittis, tincidunt ultrices tortor convallis. Nunc consectetur non mi id eleifend. Nam vehicula mattis imperdiet. Etiam consectetur libero turpis, non commodo risus feugiat ut.
+
+table:
+ age: 21 years old
+ experience: 7+ years
+ #phone: use_contact
+ #email: use_contact
+ website: www.omarqe.com
+ languages: English, Malay
+ education:
+  University of Malaya
+  Arts & Photography

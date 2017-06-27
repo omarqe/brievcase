@@ -1,0 +1,29 @@
+web_application:
+  icon: fa fa-code
+  title: Web Application
+  caption: Full-stack online softwares built with the popular PHP programming language for businesses and organisations.
+
+wordpress_website:
+  icon: fa fa-wordpress
+  title: Wordpress Website
+  caption: Wordpress websites built on top of premium theme for organisations, events, etc.
+
+graphic_design:
+  icon: fa fa-paint-brush
+  title: Graphic Design
+  caption: Vector-styled poster, banner, business card, book cover for authors, events, businesses and other individuals.
+
+ui_design:
+  icon: fa fa-mobile
+  title: UI/UX Design
+  caption: User interface designs for various mobile and web applications.
+
+web_design:
+  icon: fa fa-television
+  title: Web Design
+  caption: Static HTML5/CSS3 web designs for small to medium sized projects
+
+portfolio_design:
+  icon: fa fa-briefcase
+  title: Portfolio Design
+  caption: Online portfolio design using the Showcase platform.
