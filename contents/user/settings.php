@@ -11,6 +11,10 @@
  **/
 
 return [
+	// If you put Brievcase in a folder, the folder will be the root.
+	'root' => '',
+
+	// The site title and tagline.
 	'site_title' => [
 		'name' => 'Brievcase',
 		'tagline' => 'Simple Online Portfolio Platform'

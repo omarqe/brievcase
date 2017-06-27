@@ -179,6 +179,9 @@ function home_url( $path = '', $scheme = 'http' ){
 	$return_url = sprintf('%s://%s', $scheme, $url);
 
 	$path = ltrim($path, '.');
+	if ( !empty(get_settings('root')) && $root = get_settings('root') )
+		$path = $root . '/' . $path;
+
 	$path = addslash_path($path);
 	if ( !empty($path) && is_string($path) )
 		$return_url .= $path;

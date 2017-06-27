@@ -290,7 +290,14 @@ class Core {
 	 **/
 	private function parse_request(){
 		list( $request ) = explode( '?', $_SERVER['REQUEST_URI'] );
-		$request = str_replace( '/brievcase', '', $request );
+
+		// Modify match
+		if ( !empty($this->get_settings('root')) && $root = $this->get_settings('root') ){
+			foreach ( $this->rewrite_rules as $match => $query ){
+				$this->rewrite_rules[ "/{$root}{$match}" ] = $query;
+				unset( $this->rewrite_rules[$match] );
+			}
+		}
 
 		// Find a match in the rewrite rules.
 		foreach ( $this->rewrite_rules as $match => $query ){
