@@ -212,9 +212,9 @@ function get_site_title(){
 	endif;
 
 	if ( !empty($page) )
-		$page = $page . ' &rsaquo; ';
+		$page = $page . ' | ';
 	if ( !empty($tagline) )
-		$tagline = ' | ' . $tagline;
+		$tagline = ' &rsaquo; ' . $tagline;
 
 	return str_replace(
 		['{sitename}', '{tagline}', '{page}'],

@@ -27,7 +27,5 @@ The reason I started this project is because I need a very simple portfolio, but
 
 Like the other CMS mentioned above, Brievcase is an open source project too. I welcome everyone who wants to contribute to the project on [Github.](https://github.com/omarqe/brievcase) 
 
-
-
-
-
+<a class="twitter-timeline"  href="https://twitter.com/omarqe" data-widget-id="630882955955580928" data-height=“100”>Tweets by @omarqe</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>

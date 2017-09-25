@@ -153,7 +153,7 @@ function the_date( $format = '' ){
  * @return 	string
  * @since 	1.0
  **/
-function the_excerpt( $word_len = 50 ){
+function the_excerpt( $word_len = 50, $parse = true ){
 	global $markdown;
 
 	$content = the_content( true );
@@ -175,7 +175,9 @@ function the_excerpt( $word_len = 50 ){
 	if ( !is_integer($word_len) || $word_len > 100 || $word_len < 1 )
 		$word_len = 50;
 
-	$paragraph = $markdown->text( $paragraph );
+	// Parse the Markdown string into HTML
+	if ( true === $parse ) $paragraph = $markdown->text( $paragraph );
+
 	$paragraph = slice_text( $paragraph, $word_len );
 
 	return $paragraph;
